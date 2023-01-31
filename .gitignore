@@ -27,3 +27,13 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Postgres Docker volume
+/pgdata/
